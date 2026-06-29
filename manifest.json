@@ -1,7 +1,7 @@
 {
-  "name": "alpineTimingApp",
-  "short_name": "alpineTiming (App)",
-  "start_url": "./app.html",
+  "name": "alpineCommand",
+  "short_name": "alpineCommand",
+  "start_url": "./command.html",
   "lang": "en-GB",
   "display": "standalone",
   "orientation": "natural",
