@@ -1,6 +1,7 @@
 const CACHE_NAME = 'alpineCommand-cache-v1';
 const ASSETS = [
   './manifest.json',
+  './html/dashboard.html',
   './assets/images/iconSmall.svg',
   './assets/images/iconSmall.png',
   './assets/images/iconLarge.svg',

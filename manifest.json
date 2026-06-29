@@ -1,7 +1,7 @@
 {
   "name": "alpineCommand",
   "short_name": "alpineCommand",
-  "start_url": "./command.html",
+  "start_url": "./dashboard.html",
   "lang": "en-GB",
   "display": "standalone",
   "orientation": "natural",
