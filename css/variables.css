@@ -1,0 +1,94 @@
+/* Variables CSS file, defines CSS colour variables for project. */
+
+/* Variables CSS file, defines CSS colour variables for project. */
+:root {
+  /* Brand ramp */
+  --color-brand-900: #0B1F3A;
+  --color-brand-800: #1A3A5C;
+  --color-brand-700: #22507A;
+  --color-brand-600: #2E6D9E;
+  --color-brand-400: #4A9FD4;
+  --color-brand-300: #7BBFE6;
+  --color-brand-200: #B8DCF2;
+  --color-brand-100: #E6F3FB;
+
+  /* Semantic — primary */
+  --color-primary:        #4A9FD4;
+  --color-primary-hover:  #2E6D9E;
+  --color-primary-active: #22507A;
+  --color-primary-bg:     #E6F3FB;
+  --color-primary-border: #7BBFE6;
+
+  /* Semantic — secondary */
+  --color-secondary:        #0B1F3A;
+  --color-secondary-hover:  #1A3A5C;
+  --color-secondary-active: #22507A;
+
+  /* Status — success */
+  --color-success:       #2ECC71;
+  --color-success-hover: #27AE60;
+  --color-success-bg:    #D5F5E3;
+
+  /* Status — danger */
+  --color-danger:       #E74C3C;
+  --color-danger-hover: #C0392B;
+  --color-danger-bg:    #FADBD8;
+
+  /* Status — warning */
+  --color-warning:       #E8A020;
+  --color-warning-hover: #D4890A;
+  --color-warning-bg:    #FDEBD0;
+
+  /* Status — beta */
+  --color-beta: #7B5EA7;
+
+  /* Surfaces */
+  --color-surface-0: #FFFFFF;
+  --color-surface-1: #F4F6F8;
+  --color-surface-2: #E8ECF0;
+  --color-border:    #DDE3EA;
+
+  /* Text */
+  --color-text-primary:   #1A1A2E;
+  --color-text-secondary: #4A5568;
+  --color-text-muted:     #A0AEC0;
+  --color-text-on-dark:   #FFFFFF;
+
+  /* Backgrounds — light mode */
+  --color-bg-page:    #F4F6F8;
+  --color-bg-card:    #FFFFFF;
+  --color-bg-sunken:  #E8ECF0;
+  --color-bg-border:  #DDE3EA;
+
+  /* Navbar — light mode */
+  --color-nav-bg:         #FFFFFF;
+  --color-nav-active-bg:  #E6F3FB;
+  --color-nav-hover-bg:   #B8DCF2;
+  --color-nav-indicator:  #4A9FD4;
+  --color-nav-text:       #1A1A2E;
+  --color-nav-text-muted: #4A5568;
+  --color-nav-divider:    #DDE3EA;
+  --color-nav-footer:     #F4F6F8;
+  --color-nav-border:     #DDE3EA;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* Backgrounds — dark mode */
+    --color-bg-page:    #0D1117;
+    --color-bg-card:    #161B22;
+    --color-bg-sunken:  #1C2333;
+    --color-bg-border:  #21262D;
+
+    /* Navbar — dark mode */
+    --color-nav-bg:         #161B22;;
+    --color-nav-active-bg:  #1A3A5C;
+    --color-nav-hover-bg:   #22507A;
+    --color-nav-indicator:  #4A9FD4;
+    --color-nav-text:       #FFFFFF;
+    --color-nav-text-muted: #A0AEC0;
+    --color-nav-divider:    #1A3A5C;
+    --color-nav-footer:     #061526;
+    --color-nav-border:     #21262D;
+  }
+}

@@ -3,14 +3,39 @@
     width: 225px;
     margin: 0;
     padding: 0;
-    border-right: 2px solid black;
+    border-right: 2px solid var(--color-nav-border);
+    background-color: var(--color-nav-bg);
 }
 
-ul {
+.navbarElements {
     margin: 0;
+    padding: 15px;
     list-style: none;
 }
 
-li {
-    
+.navbarElementsDivs {
+    margin: 10px 0;
+    padding: 10px;
+    display: block;
+    border: 2px solid var(--color-nav-divider);
+    border-radius: 10px;
+    transition: background-color 0.2s ease;
+}
+
+.navbarElementsDivs:hover {
+    background-color: var(--color-nav-hover-bg);
+}
+
+.navbarLink {
+    text-decoration: none;
+    color: var(--color-nav-text-muted);
+    transition: color 0.2s ease;
+}
+
+.navbarLink:hover {
+    color: var(--color-nav-indicator);
+}
+
+.main {
+    background-color: var(--color-bg-page);
 }

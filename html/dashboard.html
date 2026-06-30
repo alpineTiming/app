@@ -7,6 +7,7 @@
         <link rel="icon" type="image/x-icon" href="/assets/images/iconLarge.svg">
         <link rel="icon" type="image/svg+xml" href="/assets/images/iconLarge.svg">
         <link rel="stylesheet" href="/css/styles.css">
+        <link rel="stylesheet" href="/css/variables.css">
         <link rel="stylesheet" href="/css/dashboard.css">
         <link rel="manifest" href="/manifest.json">
         <title>Dashboard | alpineCommand | alpineTiming</title>
@@ -15,35 +16,35 @@
         <nav class="navbar">
             <div class="navbarLogo">
             </div>
-            <ul class="navbarLinks">
-                <div>
-                    <li><a href="#">Dashboard</a></li>
+            <ul class="navbarElements">
+                <div class="navbarElementsDivs">
+                    <li class="navbarLink"><a class="navbarLink" href="#">Dashboard</a></li>
                 </div>
-                <div>
-                    <li><a href="#">Sessions</a></li>
+                <div class="navbarElementsDivs">
+                    <li class="navbarLink"><a class="navbarLink" href="#">Sessions</a></li>
                 </div>
-                <div>
-                    <li><a href="#">Competitors</a></li>
+                <div class="navbarElementsDivs">
+                    <li class="navbarLink"><a class="navbarLink" href="#">Competitors</a></li>
                 </div>
-                <div>
-                    <li><a href="#">Results</a></li>
+                <div class="navbarElementsDivs">
+                    <li class="navbarLink"><a class="navbarLink" href="#">Results</a></li>
                 </div>
-                <div>
-                    <li><a href="#">Settings</a></li>
+                <div class="navbarElementsDivs">
+                    <li class="navbarLink"><a class="navbarLink" href="#">Settings</a></li>
                 </div>
             </ul>
         </nav>
         <main>
 
         </main>
-    </body>
-    <script>
-        if ('serviceWorker' in navigator) {
-            window.addEventListener('load', function () {
-                navigator.serviceWorker.register('./serviceworker.js').catch(function (err) {
-                    console.error('Service worker registration failed:', err);
+        <script>
+            if ('serviceWorker' in navigator) {
+                window.addEventListener('load', function () {
+                    navigator.serviceWorker.register('./serviceworker.js').catch(function (err) {
+                        console.error('Service worker registration failed:', err);
+                    });
                 });
-            });
-        }
-    </script>
+            }
+        </script>
+    </body>
 </html>
