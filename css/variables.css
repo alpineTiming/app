@@ -1,6 +1,4 @@
 /* Variables CSS file, defines CSS colour variables for project. */
-
-/* Variables CSS file, defines CSS colour variables for project. */
 :root {
   /* Brand ramp */
   --color-brand-900: #0B1F3A;
@@ -72,16 +70,16 @@
   --color-nav-border:     #DDE3EA;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     /* Backgrounds — dark mode */
-    --color-bg-page:    #0D1117;
+    /* --color-bg-page:    #0D1117;
     --color-bg-card:    #161B22;
     --color-bg-sunken:  #1C2333;
-    --color-bg-border:  #21262D;
+    --color-bg-border:  #21262D; */
 
     /* Navbar — dark mode */
-    --color-nav-bg:         #161B22;;
+    /* --color-nav-bg:         #161B22;
     --color-nav-active-bg:  #1A3A5C;
     --color-nav-hover-bg:   #22507A;
     --color-nav-indicator:  #4A9FD4;
@@ -89,6 +87,6 @@
     --color-nav-text-muted: #A0AEC0;
     --color-nav-divider:    #1A3A5C;
     --color-nav-footer:     #061526;
-    --color-nav-border:     #21262D;
-  }
-}
+    --color-nav-border:     #21262D; */
+  /* } */
+/* } */

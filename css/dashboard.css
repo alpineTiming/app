@@ -1,19 +1,23 @@
 .navbar {
-    height: 100%;
     width: 225px;
-    margin: 0;
-    padding: 0;
+    flex-shrink: 0;
     border-right: 2px solid var(--color-nav-border);
     background-color: var(--color-nav-bg);
+    display: flex;
+    flex-direction: column;
 }
 
-.navbarElements {
-    margin: 0;
+.navbarElementsUpper, .navbarElementsLower {
     padding: 15px;
     list-style: none;
 }
 
-.navbarElementsDivs {
+.navbarElementsLower {
+    margin-top: auto;
+    margin-bottom: 30px;
+}
+
+.navbarItem {
     margin: 10px 0;
     padding: 10px;
     display: block;
@@ -22,20 +26,51 @@
     transition: background-color 0.2s ease;
 }
 
-.navbarElementsDivs:hover {
+.navbarItem:hover {
     background-color: var(--color-nav-hover-bg);
 }
 
 .navbarLink {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
     text-decoration: none;
     color: var(--color-nav-text-muted);
     transition: color 0.2s ease;
 }
 
-.navbarLink:hover {
-    color: var(--color-nav-indicator);
+.navbarIcon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 18px;
+    height: 18px;
+    flex-shrink: 0;
 }
 
-.main {
+.navbarIcon svg {
+    height: 100%;
+    width: 100%;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 1.8;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+.navbarLabel {
+    display: inline-block;
+}
+
+.navbarHeader {
+    padding: 15px;
+}
+
+.navbarTitle, .navbarSubtitle {
+    color: var(--color-nav-text-muted);
+}
+
+main {
     background-color: var(--color-bg-page);
 }
